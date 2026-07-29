@@ -1,0 +1,14 @@
+[project]
+name = "pdf-rag-project"
+version = "0.1.0"
+description = "A lightweight long-PDF RAG pipeline based on MinerU outputs."
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "sentence-transformers",
+  "transformers",
+  "torch",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

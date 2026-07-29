@@ -1,0 +1,2 @@
+"""Lightweight PDF RAG pipeline."""
+
