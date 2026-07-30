@@ -172,7 +172,3 @@ SourceAccuracy@1  = 6/6 = 1.000
 ```
 
 说明：只使用 `BAAI/bge-base-zh-v1.5` 且未加入 LLM 摘要块时，当前小样例集 MRR@5 为 0.653；加入全量 LLM 摘要块后 Recall 保持满分，但少数精确页排序后移，MRR@5 为 0.611。摘要索引更适合作为宽泛主题问答和导航型问题的召回增强。
-
-## 提交说明
-
-详见 [SUBMISSION_GUIDE.md](SUBMISSION_GUIDE.md)。`.env`、模型权重、向量索引和缓存不应提交到 GitHub。
